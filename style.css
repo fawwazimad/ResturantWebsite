@@ -1,0 +1,69 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-image: linear-gradient(110deg, #f93d66, #6d47d9);
+    background-repeat: no-repeat;
+    left: 50px;
+    background-attachment:fixed;
+    position: relative;
+
+}
+
+.div1
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;/*IDI*/
+    text-align: center; 
+    top:65px;
+    position: relative;
+    grid-gap: 10px;
+
+}
+.subdiv1
+{
+    font-size: 20px;
+    max-width: 250px;
+    background-color: FFC600;
+    text-align: center;
+    padding: 10px;
+    color: 272727;
+    font-weight: 900;
+    font-family:BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    
+}
+.subdiv2
+{
+    background-image: url(Pictures/taco.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+     height: 350px;
+     width: 850px;
+     padding: 50px;
+     position: relative;
+     top: 50px;
+    font-family:BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+     
+
+}
+
+.subdiv3
+{
+    
+    width: 341px;
+    height: 175px;
+    background-color: white;
+    text-align: center;
+    font-weight: 900;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    top: 70px;
+    position: relative;
+
+}
+
+.subdiv4
+{
+    bottom: 70px;
+    position: relative;
+}
